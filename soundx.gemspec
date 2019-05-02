@@ -17,5 +17,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake-compiler", "~> 1"
   s.add_development_dependency "minitest-line", "~> 0.6"
   s.add_development_dependency "minitest", "~> 5.11"
+  s.add_development_dependency "text", "~> 1.3"
+  s.add_development_dependency "benchmark-ips", "~> 2.7"
+  s.add_development_dependency "soundex", "~> 0.1"
   s.required_ruby_version = '> 2.1'
 end
